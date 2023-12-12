@@ -13,8 +13,8 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="24dp"
         android:text="Precio"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintStart_toStartOf="@+id/txtCantidad"
+        app:layout_constraintTop_toBottomOf="@+id/txtCantidad" />
 
     <TextView
         android:id="@+id/textView4"
@@ -23,8 +23,8 @@
         android:layout_marginStart="2dp"
         android:layout_marginBottom="16dp"
         android:text="Id de Producto"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber" />
+        app:layout_constraintBottom_toTopOf="@+id/txtID"
+        app:layout_constraintStart_toStartOf="@+id/txtID" />
 
     <TextView
         android:id="@+id/textView5"
@@ -47,7 +47,7 @@
         android:layout_marginTop="36dp"
         android:text="Descripción"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/txtID" />
 
     <TextView
         android:id="@+id/textView7"
@@ -56,11 +56,11 @@
         android:layout_marginStart="2dp"
         android:layout_marginBottom="18dp"
         android:text="Cantidad"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber2" />
+        app:layout_constraintBottom_toTopOf="@+id/txtCantidad"
+        app:layout_constraintStart_toStartOf="@+id/txtCantidad" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/txtID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txtDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/txtCantidad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -89,10 +89,10 @@
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/txtDesc" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/txtPrecio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
