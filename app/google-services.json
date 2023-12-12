@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "29419626232",
+    "project_id": "efcastillo-3ead3",
+    "storage_bucket": "efcastillo-3ead3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29419626232:android:f72d73b5ed431e3577a50d",
+        "android_client_info": {
+          "package_name": "com.example.castillo_19100253_ef_2023"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe7O7ljrcyxvxtbSljfqGAegB_usRF0mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
